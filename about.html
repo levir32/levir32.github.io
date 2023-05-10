@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Website</title>
+	<style>
+ @font-face {
+      font-family: 'MyCustomFont';
+      src: url('Fonts/Overseer.otf') format('truetype');
+    }
+
+body {
+	background-image: url('codefalling.gif');
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding-top: 80px; /* add some padding to move the main element down */
+}
+
+nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: rgba(0, 0, 0, 0.5);
+	padding: 20px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	box-sizing: border-box;
+}
+
+nav ul {
+	display: flex;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav li {
+	margin-right: 20px;
+	font-size: 24px;
+}
+
+nav a {
+	color: white;
+	text-decoration: none;
+	padding: 10px 20px;
+	border-radius: 5px;
+}
+
+nav a:hover {
+	background-color: white;
+	color: black;
+}
+
+main {
+	margin: auto;
+	padding: 20px;
+	box-sizing: border-box;
+	color: black;
+	font-family: 'MyCustomFont', sans-serif;
+	font-size: 24px;
+	line-height: 1.5;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: rgba(255, 255, 255, 0.7);
+	border-radius: 10px;
+	max-width: 600px;
+	margin: auto;
+	text-align: center;
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+h1, p {
+	margin: 20px 0;
+}
+
+	</style>
+</head>
+<body>
+
+	<nav>
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="discrete-awareness.html">Discrete Awareness</a></li>
+			<li><a href="fallout-series-impact.html">Fallout Series Impact</a></li>
+			<li><a href="societal-change.html">Societal Change</a></li>
+			<li><a href="about.html">About</a></li>
+		</ul>
+	</nav>
+
+	<main>
+		<h1 style="margin-top: 30px;">About</h1>
+		<p style="margin-bottom: 30px;">The Fallout series that is referenced multiple times throughout this webpage refers to the open world games that were created when the game company Bethesda bought and rebranded the game. The website is meant to draw attention to the many facets of underlying information that is present in the Fallout series. Created by Levi Rawls. </p>
+	</main>
+
+</body>
+</html>
